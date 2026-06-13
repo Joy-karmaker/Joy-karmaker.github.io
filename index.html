@@ -39,7 +39,6 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content reveal">
-            <span class="badge">Available for Projects</span>
             <h1>Hi, I'm <span class="name-gradient">Joy Karmaker</span></h1>
             <p>Senior Software Engineer specializing in high-scale financial ecosystems. I bridge the gap between complex backend architectures and seamless user experiences using PHP, Node.js, and modern AI-driven workflows.</p>
             <div class="cta-group">
@@ -59,10 +58,10 @@
         <h2 class="section-title">Professional Summary</h2>
         <div class="card" style="max-width: 900px; margin: 0 auto;">
             <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">
-                Results-oriented Senior Software Engineer with <strong>6+ years of experience</strong> building and scaling multi-tenant financial platforms. I have a strong expertise in backend architecture, API development, production reliability, and cross-system integration across PHP and Node.js ecosystems.
+                I am a backend-focused Senior Software Engineer with <strong>6+ years of experience</strong> designing and scaling multi-tenant financial SaaS platforms. I specialize in backend architecture, API engineering, and database performance tuning across PHP (Laravel/NestJS) and Node.js ecosystems.
             </p>
             <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">
-                I have a demonstrated impact in increasing development velocity by <strong>30-40%</strong> through AI-assisted engineering workflows while maintaining high release quality and maintainability.
+                I thrive on solving complex backend scaling challenges—like optimizing databases to handle over <strong>1M daily transactions</strong>—and applying AI workflows to accelerate feature delivery by <strong>30-40%</strong>. Lately, I have been building custom AI integrations, including RAG pipelines and vector search features.
             </p>
             <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 2rem;">
                 <div class="stat-item" style="flex-direction: column; align-items: flex-start;">
@@ -84,21 +83,53 @@
     <!-- Skills Section -->
     <section id="skills" class="reveal">
         <h2 class="section-title">Core Competencies</h2>
-        <div class="skills-grid">
-            <span class="skill-tag">Laravel</span>
-            <span class="skill-tag">CodeIgniter</span>
-            <span class="skill-tag">Node.js</span>
-            <span class="skill-tag">Express.js</span>
-            <span class="skill-tag">React.js</span>
-            <span class="skill-tag">Vue.js</span>
-            <span class="skill-tag">MySQL</span>
-            <span class="skill-tag">PostgreSQL</span>
-            <span class="skill-tag">Redis</span>
-            <span class="skill-tag">RabbitMQ</span>
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">GitHub Actions</span>
-            <span class="skill-tag">REST APIs</span>
-            <span class="skill-tag">Microservices</span>
+        <div class="skills-container">
+            <div class="card skill-category">
+                <h3><i class="fa-solid fa-code"></i> Languages & Frameworks</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">NestJS</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">CodeIgniter</span>
+                </div>
+            </div>
+            <div class="card skill-category">
+                <h3><i class="fa-solid fa-database"></i> Databases & Messaging</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">RabbitMQ</span>
+                </div>
+            </div>
+            <div class="card skill-category">
+                <h3><i class="fa-solid fa-brain"></i> AI & LLM Technologies</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">RAG Pipelines</span>
+                    <span class="skill-tag">Vector Search</span>
+                    <span class="skill-tag">Qdrant</span>
+                    <span class="skill-tag">Prompt Engineering</span>
+                </div>
+            </div>
+            <div class="card skill-category">
+                <h3><i class="fa-solid fa-cubes"></i> Architecture & DevOps</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">RESTful APIs</span>
+                    <span class="skill-tag">Microservices</span>
+                    <span class="skill-tag">Multi-tenant Databases</span>
+                    <span class="skill-tag">Event-Driven Architecture</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Vue.js</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -110,21 +141,23 @@
                 <div class="timeline-date">Jan 2024 – Present</div>
                 <h3>Senior Software Engineer</h3>
                 <p style="color: var(--primary); font-weight: 600; margin-bottom: 1rem;">Datasoft Systems Bangladesh Ltd.</p>
-                <ul style="color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem;">
-                    <li>Engineered and maintained microservice-driven SaaS financial modules using PHP and JavaScript.</li>
-                    <li>Increased development velocity by 30-40% by integrating AI-assisted workflows.</li>
-                    <li>Improved CI/CD quality through stronger automated testing and API documentation.</li>
-                    <li>Mentored developers through code reviews and engineering best practices.</li>
+                <ul style="color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem; line-height: 1.7;">
+                    <li style="margin-bottom: 0.5rem;">Built and enhanced microservice-driven SaaS financial modules, supporting reliable operations for hundreds of microfinance institutions.</li>
+                    <li style="margin-bottom: 0.5rem;">Increased development productivity by 30–40% by incorporating AI tools such as Claude, GitHub Copilot, and Codex into day-to-day development work.</li>
+                    <li style="margin-bottom: 0.5rem;">Developed transactional REST APIs that improved integration efficiency and ensured consistent transaction states across 3+ interconnected microservices.</li>
+                    <li style="margin-bottom: 0.5rem;">Investigated and fixed production issues affecting database performance and ledger accuracy, reducing incidents by 25%.</li>
+                    <li style="margin-bottom: 0.5rem;">Led code reviews and mentored junior and mid-level developers, introducing automated linting and unit testing practices that reduced post-release defects.</li>
                 </ul>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">Jan 2020 - Dec 2023</div>
-                <h3>Programmer</h3>
+                <div class="timeline-date">Jan 2020 – Dec 2023</div>
+                <h3>Software Engineer</h3>
                 <p style="color: var(--primary); font-weight: 600; margin-bottom: 1rem;">Micromac Techno Valley Ltd.</p>
-                <ul style="color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem;">
-                    <li>Developed enterprise Loan Origination and Document Management systems.</li>
-                    <li>Translated business requirements into scalable, production-ready features.</li>
-                    <li>Improved system stability through targeted fixes and technical documentation.</li>
+                <ul style="color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem; line-height: 1.7;">
+                    <li style="margin-bottom: 0.5rem;">Developed core backend logic and database workflows for enterprise Loan Origination and Document Management systems using Laravel.</li>
+                    <li style="margin-bottom: 0.5rem;">Improved loan verification and document indexing workflows by automating manual approvals, reducing application turnaround time by 40%.</li>
+                    <li style="margin-bottom: 0.5rem;">Optimized complex SQL queries, indexes, and views to improve speed for high-volume document retrieval and search operations.</li>
+                    <li style="margin-bottom: 0.5rem;">Participated in deployments, troubleshot environment configurations, and authored technical documentation to support smoother customer onboarding.</li>
                 </ul>
             </div>
         </div>
@@ -134,40 +167,124 @@
     <section id="projects" class="reveal">
         <h2 class="section-title">Featured Projects</h2>
         <div class="grid">
+            <!-- Project 1: POS-SaaS-Microservice -->
             <div class="card project-card">
-                <h3>MicroFin360NEXT (SaaS)</h3>
-                <p style="margin-bottom: 1rem;">Multi-tenant microservice platform serving 360+ institutions.</p>
-                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem;">
-                    <li>Implemented 10+ complex financial operations (write-offs, waivers).</li>
-                    <li>Optimized APIs for 25M+ monthly transaction records.</li>
-                    <li>Reduced recurring production issues by 90%.</li>
+                <div class="project-header">
+                    <span class="project-badge personal">Personal Project</span>
+                    <a href="https://github.com/Joy-karmaker/POS-SaaS-Microservices" target="_blank" class="github-icon-link" title="GitHub Repository">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <h3>POS SaaS Microservice</h3>
+                <p style="margin-bottom: 1rem;">High-performance polyglot microservices platform isolating data and workflows.</p>
+                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    <li style="margin-bottom: 0.3rem;">Physical database-per-tenant isolation using a custom connection router.</li>
+                    <li style="margin-bottom: 0.3rem;">Automated provisioning pipeline programmatically executing database migrations.</li>
+                    <li style="margin-bottom: 0.3rem;">Event-driven RabbitMQ workflows for shifts with Dead Letter Queues (DLQ).</li>
+                    <li style="margin-bottom: 0.3rem;">Low-latency active cart sessions using Redis caching.</li>
+                    <li style="margin-bottom: 0.3rem;">Real-time stock broadcasts via tenant-isolated Socket.io WebSockets.</li>
                 </ul>
-                <div class="project-stats">
+                <div class="project-tech-tags">
+                    <span>NestJS</span>
+                    <span>Laravel</span>
+                    <span>Redis</span>
+                    <span>RabbitMQ</span>
+                    <span>Socket.io</span>
+                    <span>Nginx</span>
+                    <span>React</span>
+                </div>
+            </div>
+
+            <!-- Project 2: AI RAG-based Document Chat -->
+            <div class="card project-card">
+                <div class="project-header">
+                    <span class="project-badge personal">Personal Project</span>
+                    <a href="https://github.com/Joy-karmaker/AI-RAG" target="_blank" class="github-icon-link" title="GitHub Repository">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <h3>AI RAG Document Chat</h3>
+                <p style="margin-bottom: 1rem;">Full-stack document query tool using vector indexing and Gemini LLM response generation.</p>
+                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    <li style="margin-bottom: 0.3rem;">Developed backend APIs with FastAPI for high-throughput request handling.</li>
+                    <li style="margin-bottom: 0.3rem;">Built vector index and search logic utilizing Qdrant vector database.</li>
+                    <li style="margin-bottom: 0.3rem;">Implemented hybrid search retrieval mechanisms for increased context accuracy.</li>
+                    <li style="margin-bottom: 0.3rem;">Created an interactive browser UI for seamless file uploads and querying.</li>
+                </ul>
+                <div class="project-tech-tags">
+                    <span>FastAPI</span>
+                    <span>Qdrant</span>
+                    <span>Gemini</span>
+                    <span>Python</span>
+                    <span>HTML/JS</span>
+                </div>
+            </div>
+
+            <!-- Project 3: MicroFin360NEXT -->
+            <div class="card project-card">
+                <div class="project-header">
+                    <span class="project-badge scale">Scale Project</span>
+                </div>
+                <h3>MicroFin360NEXT (Enterprise)</h3>
+                <p style="margin-bottom: 1rem;">Core multi-tenant SaaS financial platform serving microfinance institutes.</p>
+                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    <li style="margin-bottom: 0.3rem;">Orchestrated core loan, savings, and general ledger modules.</li>
+                    <li style="margin-bottom: 0.3rem;">Optimized high-workload database query paths for 25M+ monthly database records.</li>
+                    <li style="margin-bottom: 0.3rem;">Designed compliance corrections (backdated calculations) with zero data variance.</li>
+                </ul>
+                <div class="project-tech-tags">
+                    <span>CodeIgniter</span>
+                    <span>Vue.js</span>
+                    <span>MySQL</span>
+                    <span>Redis</span>
+                </div>
+                <div class="project-stats" style="margin-top: auto;">
                     <span class="stat-item"><i class="fa-solid fa-users"></i> 360+ Clients</span>
                     <span class="stat-item"><i class="fa-solid fa-bolt"></i> 1M+ Txn/Day</span>
                 </div>
             </div>
+
+            <!-- Project 4: Fund Management & Budget Forecasting -->
             <div class="card project-card">
+                <div class="project-header">
+                    <span class="project-badge scale">Scale Project</span>
+                </div>
                 <h3>Fund Management Service</h3>
-                <p style="margin-bottom: 1rem;">Backend workflows for branch-level allocation and forecasting.</p>
-                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem;">
-                    <li>Reduced manual correction effort by 95% via validation rules.</li>
-                    <li>Improved planning cycle efficiency by 50%.</li>
-                    <li>Processed 200+ monthly allocation records seamlessly.</li>
+                <p style="margin-bottom: 1rem;">Branch budgeting, monthly planning, and allocation management tool.</p>
+                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    <li style="margin-bottom: 0.3rem;">Engineered backend business logic validation and reconciliation engines.</li>
+                    <li style="margin-bottom: 0.3rem;">Reduced manual data entry reconciliation error correction overheads by 95%.</li>
+                    <li style="margin-bottom: 0.3rem;">Boosted branch fund planning cycle efficiency by 50%.</li>
                 </ul>
-                <div class="project-stats">
-                    <span class="stat-item"><i class="fa-solid fa-chart-line"></i> +50% Efficiency</span>
+                <div class="project-tech-tags">
+                    <span>Laravel</span>
+                    <span>React.js</span>
+                    <span>MySQL</span>
+                </div>
+                <div class="project-stats" style="margin-top: auto;">
+                    <span class="stat-item"><i class="fa-solid fa-chart-line"></i> +50% Cycle Efficiency</span>
                 </div>
             </div>
+
+            <!-- Project 5: Centralized User Audit Logs -->
             <div class="card project-card">
-                <h3>User Audit Trails</h3>
-                <p style="margin-bottom: 1rem;">Centralized logging service for 100% of critical platform actions.</p>
-                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1rem;">
-                    <li>Reduced incident investigation time by 80%.</li>
-                    <li>Implemented role-aware queries for security compliance.</li>
+                <div class="project-header">
+                    <span class="project-badge scale">Scale Project</span>
+                </div>
+                <h3>Centralized User Audit Logs</h3>
+                <p style="margin-bottom: 1rem;">High-throughput user activity audit logging engine tracking platform operations.</p>
+                <ul style="font-size: 0.9rem; color: var(--text-muted); padding-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    <li style="margin-bottom: 0.3rem;">Configured logger backend capable of processing high activity streams securely.</li>
+                    <li style="margin-bottom: 0.3rem;">Designed searchable indexes decreasing security audit resolution time by 80%.</li>
+                    <li style="margin-bottom: 0.3rem;">Achieved 100% logging coverage of core security-sensitive actions.</li>
                 </ul>
-                <div class="project-stats">
-                    <span class="stat-item"><i class="fa-solid fa-shield-halved"></i> 100% Coverage</span>
+                <div class="project-tech-tags">
+                    <span>Express.js</span>
+                    <span>PostgreSQL</span>
+                    <span>Redis</span>
+                </div>
+                <div class="project-stats" style="margin-top: auto;">
+                    <span class="stat-item"><i class="fa-solid fa-shield-halved"></i> 100% Audit Coverage</span>
                 </div>
             </div>
         </div>
@@ -207,17 +324,22 @@
     <!-- Contact Section -->
     <section id="contact" class="reveal">
         <h2 class="section-title">Get In Touch</h2>
-        <div class="grid" style="max-width: 800px; margin: 0 auto;">
-            <div class="card" style="text-align: center;">
-                <i class="fa-solid fa-envelope" style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;"></i>
+        <div class="grid" style="max-width: 900px; margin: 0 auto; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <a href="mailto:joy12@cse.pstu.ac.bd" class="card contact-card" style="text-align: center; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;">
+                <i class="fa-solid fa-envelope" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
                 <h3>Email</h3>
-                <p>joy12@cse.pstu.ac.bd</p>
-            </div>
-            <div class="card" style="text-align: center;">
-                <i class="fa-brands fa-linkedin" style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                <p style="color: var(--text-muted); word-break: break-all;">joy12@cse.pstu.ac.bd</p>
+            </a>
+            <a href="https://linkedin.com/in/joy-karmaker-8a11bb206" target="_blank" class="card contact-card" style="text-align: center; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;">
+                <i class="fa-brands fa-linkedin" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
                 <h3>LinkedIn</h3>
-                <p>joy-karmaker-8a11bb206</p>
-            </div>
+                <p style="color: var(--text-muted);">joy-karmaker-8a11bb206</p>
+            </a>
+            <a href="https://github.com/Joy-karmaker" target="_blank" class="card contact-card" style="text-align: center; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;">
+                <i class="fa-brands fa-github" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
+                <h3>GitHub</h3>
+                <p style="color: var(--text-muted);">Joy-karmaker</p>
+            </a>
         </div>
     </section>
 
