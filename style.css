@@ -225,18 +225,40 @@ h1 {
 }
 
 /* Skills */
-.skills-grid {
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.skill-category h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--primary);
+}
+
+.skill-category h3 i {
+    color: var(--accent);
+}
+
+.skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    gap: 0.75rem;
 }
 
 .skill-tag {
-    padding: 0.8rem 1.5rem;
+    padding: 0.5rem 1rem;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--glass-border);
-    border-radius: 12px;
+    border-radius: 10px;
+    font-size: 0.9rem;
     font-weight: 500;
     transition: var(--transition);
 }
@@ -248,15 +270,78 @@ h1 {
 }
 
 /* Projects */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.project-badge {
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.project-badge.personal {
+    background: rgba(14, 165, 233, 0.1);
+    color: var(--accent);
+    border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.project-badge.scale {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.github-icon-link {
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.github-icon-link:hover {
+    color: var(--text-main);
+    transform: scale(1.1);
+}
+
 .project-card h3 {
     margin-bottom: 1rem;
     color: var(--accent);
 }
 
+.project-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+    margin-bottom: 1.25rem;
+    padding-top: 1rem;
+}
+
+.project-tech-tags span {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+    border-radius: 6px;
+    border: 1px solid var(--glass-border);
+}
+
 .project-stats {
     display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 1.25rem;
+    border-top: 1px solid var(--glass-border);
+    padding-top: 1rem;
     font-size: 0.85rem;
     color: var(--text-muted);
 }
@@ -265,6 +350,12 @@ h1 {
     display: flex;
     align-items: center;
     gap: 0.4rem;
+}
+
+/* Contact Card */
+.contact-card:hover {
+    border-color: var(--accent) !important;
+    box-shadow: 0 15px 30px rgba(14, 165, 233, 0.15) !important;
 }
 
 /* Experience */
